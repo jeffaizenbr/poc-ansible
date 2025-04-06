@@ -1,6 +1,6 @@
 ---
 - name: Check for security updates on Rocky Linux 8
-  hosts: '{{ansible_host}}'
+  hosts: all
   become: true
 
   tasks:
